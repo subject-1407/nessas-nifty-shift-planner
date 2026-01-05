@@ -1,0 +1,13 @@
+Name,Days,Friends
+Employee A1,Monday;Tuesday;Wednesday;Thursday,Employee A2
+Employee A2,Monday;Tuesday;Wednesday;Thursday,Employee A1
+Employee B1,Tuesday;Wednesday;Thursday,Employee B2
+Employee B2,Tuesday;Wednesday;Thursday,Employee B1
+Employee C,Friday;Saturday;Sunday;Monday;Tuesday;Wednesday;Thursday,
+Employee D,Friday;Saturday;Sunday;Monday;Tuesday;Wednesday;Thursday,
+Employee E,Friday;Saturday;Sunday;Monday;Tuesday;Wednesday;Thursday,
+Employee F,Friday;Saturday;Sunday;Monday;Tuesday;Wednesday;Thursday,
+Employee G1,Friday;Saturday;Sunday;Monday;Tuesday;Wednesday;Thursday,Employee G2;Employee G3
+Employee G2,Friday;Saturday;Sunday;Monday;Tuesday;Wednesday;Thursday,Employee G1;Employee G3
+Employee G3,Friday;Saturday;Sunday;Monday;Tuesday;Wednesday;Thursday,Employee G1;Employee G2
+Employee H,Friday;Saturday;Sunday;Monday;Tuesday;Wednesday;Thursday,
