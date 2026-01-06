@@ -6,8 +6,6 @@ import argparse
 days_of_week = ['Friday', 'Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday']
 shifts = ['Morning', 'Afternoon']
 required_shifts_per_employee = 3
-
-# Minimum employees needed for each shift on each day
 employees_per_shift = {
     'Friday': {'Morning': 2, 'Afternoon': 2},
     'Saturday': {'Morning': 3, 'Afternoon': 3},
@@ -69,7 +67,7 @@ def print_schedule(schedule, remaining_shifts):
 
 # CLI entry point
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Shift planner for volunteer schedules")
+    parser = argparse.ArgumentParser(description="Shift planner for volunteer schedules.")
     parser.add_argument('employee_csv', help="Path to CSV file with employees, availability, and friends")
     args = parser.parse_args()
 
